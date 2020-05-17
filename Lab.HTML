@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab.HTML</title>
+    <title>Lab HTML</title>
+    <link rel="stylesheet" href="Lab.css" lang="text/css">
 </head>
 <body>
+    <span>
+        <ul>
+            <li><a href="Lab.HTML">Lab HTML</a></li>
+            <li><a href="Lab_.html">Lab CSS Styles</a></li>
+            <li><a href="Lab_html.html">Lab CSS Grid-Flex</a></li>
+        </ul>
+    </span>
     <div class="table">
     <!-- 1 -->
         <table style="width: 100%;">
@@ -199,159 +207,5 @@
         </table>
     </div>
 
-    <hr style="border: 2px dotted chocolate;">
-    <!-- tooltip -->
-    <div class="tooltip" style="text-align: center;">
-       <strong>Tooltips</strong> is small pop-up box that appears when the user moves the mouse pointer over an element.
-        <span class="tooltiptext">appear like this.</span>
-    </div>
-    <!-- pagination -->
-    <div class="paginate">
-        <strong>Pagination</strong> is the numbers or marks used to indicate the sequence of pages <u>ex.</u>
-        <div class="pagination">
-            <a href="#">&laquo;previous</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">next&raquo;</a>
-        </div>
-    </div>
-    <!-- navigation bar & dropdown-->
-    <div>
-        <strong>Navigation bar</strong> is element that contains links to other section of website. 
-        <br><strong>Dropdown</strong> is A drop down menu is horizontal list of options that each contain a vertical menu.for example
-        <span>
-            <ul>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropdownbtn">dropdown</a>
-                    <div class="dropdowncontent">
-                        <a href="#">aaaa</a>
-                        <a href="#">bbbb</a>
-                        <a href="#">cccc</a>
-                    </div>
-                </li>
-            </ul>
-        </span>
-    </div>
-    <hr style="margin: 20px;;">
-
-    <div class="web-structure">
-
-    </div>
 </body>
-<style>
-    th{
-        border : 1px;
-        border-style: solid;
-    }
-    td{
-        border : 1px;
-        border-style: dotted;
-    }
-    table{
-        margin-top: 20px;
-    }
-    .tooltip {
-        position: relative;
-        display: inline-block;
-    }
-
-    /* make invisible text box */
-    .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: dimgray;
-        color: white;
-        text-align: center;
-        border-radius: 8px;
-        padding: 5px;
-        position: absolute;
-        z-index: 1;
-        left: 115%;
-        margin-left: -60px;
-        opacity: 0;
-        transition: opacity 0.3s;
-    }
-
-    /* arrow head */
-    .tooltip .tooltiptext::after {
-        /* position */
-        content: "";
-        position: absolute;
-        top: 37.5%;
-        right: 100%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        /* arrow direction */
-        border-color: transparent dimgray  transparent transparent;
-    }
-
-    /* show text box when mouse over the text */
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-    }
-
-    .pagination{
-        display: inline-block;
-    }
-    .pagination a{
-        color: grey;
-        padding : 4px 8px;
-        text-decoration: none;
-    }
-    div{
-        margin-top: 15px;
-    }
-
-    ul {
-        list-style-type: none;
-        border: 1px solid tomato;
-        padding: 0;
-        background-color: tomato;
-        text-align: center;
-        margin: 0;
-    }
-    li {
-        display: inline;
-        padding: 0;
-    }
-    li a{
-        display: inline-block;
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        padding: 20px;
-    }
-    li a:hover{
-        background-color: yellow;
-    }
-    .dropdown{
-        position: relative;
-        display: inline-block;
-    }
-    .dropdowncontent{
-        display: none;
-        position: absolute;
-        background-color: lightslategray;
-        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .1);
-        z-index: 1;
-        min-width: 100px;
-    }
-    .dropdowncontent a{
-        color: whitesmoke;
-        padding: 10px;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown:hover .dropdowncontent {
-        display: block;
-    }
-</style>
 </html>

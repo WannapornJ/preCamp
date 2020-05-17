@@ -1,0 +1,113 @@
+.navbar{
+    border: 1px solid darkslategray;
+    background-color: darkslategray;
+    color: mintcream;
+    padding: 20px;
+}
+.second-navbar{
+    border: 1px solid slategray;
+    background-color: slategray;
+    padding: 10px;
+    color: mintcream;
+    text-align: center;
+}
+.result-bar{
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100%;
+    padding: 10px;
+}
+.product{
+    display: grid;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    grid-template-rows: 100%;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.product > .picture{
+    border: 1px solid slategray;
+    background-color: slategray;
+    color: mintcream;
+    width: 200px;
+    height: 250px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.pagination a{
+    color: mintcream;
+    padding : 4px 8px;
+    text-decoration: none;
+    border: 1px solid slategray;
+    background-color: slategray;
+    margin-left: 3px;
+    border-radius: 4px;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+    justify-content: space-evenly;
+    margin : 10px 0px 10px 0px;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.product-box > .box{
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 20px 0px 20px 10px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto;
+}
+.box> .picture{
+    border: 1px solid slategray;
+    background-color: slategray;
+    width: 80px;
+    height: 100px;
+}
+.help-inform{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.help-inform > .help-link{
+    text-decoration: none;
+}
+.banner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.banner > .banner-pic{
+    grid-column: 2/3;
+    margin-top: 10px;
+    border: 1px solid slategray;
+    background-color: slategray;
+    color: mintcream;
+    width: 400px;
+    height: 100px;
+}
+.footer-1{
+    border: 1px solid slategray;
+    color: mintcream;
+    background-color: slategray;
+    height: 300px;
+}
+.footer-2{
+    border: 1px solid darkslategray;
+    color: mintcream;
+    background-color: darkslategray;
+    height: 100px;
+}
+.description{
+    text-align: justify;
+}

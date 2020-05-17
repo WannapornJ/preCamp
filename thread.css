@@ -1,0 +1,75 @@
+.column-divide{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+}
+.navigation-bar{
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.content-column{
+    /* width: 80%; */
+}
+.home-header{
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    color: whitesmoke;
+    height: 45px;
+}
+.create-thread{
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    height: 120px;
+}
+.thread-with-image{
+    padding: 10px;
+    background-color: lightgray;
+    margin-top: 5px;
+}
+.thread-with-image > .thread-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+.thread-image > .image{
+    margin-top: 5px;
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    width: 260px;
+    height: 150px;
+}
+.thread-without-image{
+    padding: 10px;
+    background-color: lightgray;
+    margin-top: 5px;
+}
+.thread-text{
+    text-align: justify;
+}
+.search-trend-follow-column > .search-box{
+    width: 200px;
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    color: whitesmoke;
+    height: 20px;
+    padding: 10px;
+}
+.search-trend-follow-column > .trend-box{
+    width: 200px;
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    color: whitesmoke;
+    height: 500px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.search-trend-follow-column > .follow-box{
+    width: 200px;
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    color: whitesmoke;
+    height: 180px;
+    padding: 10px;
+    margin-top: 5px;
+}
